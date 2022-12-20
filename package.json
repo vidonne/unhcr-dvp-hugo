@@ -1,0 +1,22 @@
+{
+  "name": "unhcr-dvp-hugo",
+  "version": "0.1.0",
+  "description": "Experimenting Hugo for th UNHCR DVP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidonne/unhcr-dvp-hugo.git"
+  },
+  "author": "Cedric Vidonne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vidonne/unhcr-dvp-hugo/issues"
+  },
+  "homepage": "https://github.com/vidonne/unhcr-dvp-hugo#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
