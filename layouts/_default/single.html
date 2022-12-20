@@ -1,5 +1,7 @@
 {{ define "main" }}
-<main>
-    {{ .Content }}
+<main class="py-5 container">
+  <h1>{{ .Title }}</h1>
+  <p class="text-danger">This is a <strong>single</strong> page</p>
+  {{ .Content }}
 </main>
 {{ end }}
