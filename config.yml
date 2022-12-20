@@ -1,0 +1,12 @@
+baseURL: 'https://dataviz.unhcr.org/'
+languageCode: 'en-us'
+title: 'UNHCR Dataviz Platform'
+relativeURLS: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  tagline: 'Aim for better data storytelling'
