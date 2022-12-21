@@ -1,6 +1,87 @@
 {{ define "main" }}
-<main class="py-5 container">
-    <h1>This is {{ .Title }} from index.html layout</h1>
-    {{ .Content }}
+<main id="home" class="flex-shrink-0">
+    <section class="banner py-5">
+        <div class="container py-5">
+            <div class="row align-items-center gx-5 gy-4">
+                <div class="col-12 col-sm-8 col-md-6 order-2 order-sm-1">
+                    <h1 class="display-4 text-primary">Data visualization platform</h1>
+                    <p class="fs-4">Insights, guidelines, and tools for better data storytelling.</p>
+                </div>
+                <div class="col-6 col-sm-4 col-md-6 order-sm-2 offset-3 offset-sm-0">
+                    <img src="img/circle_cover.svg" alt="Data visualization illustration at the home page" ,="" title="UNHCR Data Visualization Platform" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg-light">
+        <div class="container py-3">
+            <div class="row align-items-center gx-5 gy-4">
+                <div class="col-12 col-md-6">
+                    <h2>Chart gallery</h2>
+                    <hr class="short-hr mx-0">
+                    <p>Finding the most effective way to showcase your data and convey your message can be a
+                        daunting task. In the chart gallery, you can browse through different options and find
+                        suitable charts for the type of data you have and the attributes and relationships you want
+                        to highlight.</p>
+                    <a class="btn btn-primary" href="chart-gallery/" role="button">See more</a>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="img/chart_gallery_cover_white.svg" alt="Chart gallery illustration at the home page" ,="" title="Chart Gallery" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container py-3">
+            <div class="row align-items-center gx-5 gy-4">
+                <div class="col-12 col-md-6 order-md-2">
+                    <h2>General guidance</h2>
+                    <hr class="short-hr mx-0">
+                    <p>The UNHCR Data Visualization Guidelines are practical and easy to follow. They will ensure
+                        your charts and graphics are professional, clear and brand–compliant.</p>
+                    <a class="btn btn-primary" href="general-guidance/" role="button">See more</a>
+                </div>
+                <div class="col-12 col-md-6 order-md-1">
+                    <img src="img/guideline_cover.svg" alt="General guidance illustration at the home page" ,="" title="General guidance" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg-light">
+        <div class="container py-3">
+            <div class="row align-items-center gx-5 gy-4">
+                <div class="col-12 col-md-6">
+                    <h2>Tools</h2>
+                    <hr class="short-hr mx-0">
+                    <p>To help UNHCR colleagues to create high-quality, brand-compliant charts and graphics, GDS has
+                        created a number of tools, templates and scripts. You can find useful tools to support your
+                        data visualization using Excel, Power BI, Adobe Illustrator, R, Python, D3, and for GIS.</p>
+                    <a class="btn btn-primary" href="tools/" role="button">See more</a>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="img/tools_cover_white.svg" alt="Tools illustration at the home page" ,="" title="Tools" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container py-3">
+            <div class="row align-items-center gx-5 gy-4">
+                <div class="col-12 col-md-6 order-md-2">
+                    <h2>Products</h2>
+                    <hr class="short-hr mx-0">
+                    <p>Browse through the collection of storymaps, dashboards and infographics created by UNHCR’s
+                        Information Product Development and Analysis unit. Perhaps they can inspire your data
+                        storytelling?</p>
+                    <a class="btn btn-primary" href="products/" role="button">See more</a>
+                </div>
+                <div class="col-12 col-md-6 order-md-1">
+                    <img src="img/product_cover_white.png" alt="Products illustration at the home page" ,="" title="Products" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+    </section>
 </main>
 {{ end }}
